@@ -1,0 +1,29 @@
+{
+  "name": "node_chat",
+  "version": "1.0.0",
+  "description": "Node.js 실시간 채팅",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cholongyee/node-chat.git"
+  },
+  "author": "cholongyee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cholongyee/node-chat/issues"
+  },
+  "homepage": "https://github.com/cholongyee/node-chat#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "http-proxy": "^1.18.0",
+    "https": "^1.0.0",
+    "pug": "^2.0.4",
+    "socket.io": "^2.3.0",
+    "vhost": "^3.0.2"
+  }
+}
